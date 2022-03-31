@@ -1,3 +1,5 @@
+pool:
+  name: My agent pool
 steps:
 - task: PowerShell@2
   displayName: 'PowerShell Script'
