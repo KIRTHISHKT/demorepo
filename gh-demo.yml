@@ -1,0 +1,6 @@
+steps:
+- task: PowerShell@2
+  displayName: 'PowerShell Script'
+  inputs:
+    targetType: filePath
+    filePath: './get-vol.ps1'
